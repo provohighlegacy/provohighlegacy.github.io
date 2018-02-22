@@ -1,6 +1,9 @@
-<HTML>
-<TITLE>Test File</TITLE>
-
+<!DOCTYPE html>
+<html>
+<head>
+<title>Test File</title>
+</head>
+<body>
 <!--#config timefmt="%A" --> <!--#echo var="DATE_LOCAL" -->
-
-</HTML>
+</body>
+</html>
