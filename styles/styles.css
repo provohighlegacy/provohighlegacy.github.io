@@ -1,7 +1,5 @@
 @import url("styles/bootstrap.min.css");
 
-*, 
-html {
-  padding: 0;
-  margin: 0;
+body {
+  margin: 0px;
 }
