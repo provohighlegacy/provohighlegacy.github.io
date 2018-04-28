@@ -1,27 +1,60 @@
 <!DOCTYPE html>
 <html>
-    <head>
+  <head>
     <link rel="stylesheet" href="styles/styles.css">
-    <script type="text/javascript" src="bootstrap.bundle.min.js"></script>
-    <title>70's Photos</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <title>PHS Legacy Photos</title>
   </head>
+  
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand"href="index.html">PHS Legacy Photos</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="fifties.html">'50s</a>
-          <a class="nav-item nav-link" href="sixties.html">'60s</a>
-          <a class="nav-item nav-link" href="seventies.html">'70s</a>
-          <a class="nav-item nav-link" href="eighties.html">'80s</a>
-          <a class="nav-item nav-link" href="nineties.html">'90s</a>
-          <a class="nav-item nav-link" href="twothousands.html">2000s</a>
-          <a class="nav-item nav-link" href="twentytens.html">2010s</a>
-        </div>
+      <a class="navbar-brand" href="index.html">Provo High Reminiscence</a>
+      
+      <div class="collapse navbar-collapse" id="navbarsExample01">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">All Photos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Photos By Year</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="fifties.html">From the '50s</a>
+              <a class="dropdown-item" href="sixties.html">From the '60s</a>
+              <a class="dropdown-item" href="seventies.html">From the '70s</a>
+              <a class="dropdown-item" href="eighties.html">From the '80s</a>
+              <a class="dropdown-item" href="nineties.html">From the '90s</a>
+              <a class="dropdown-item" href="twothousands.html">From the 2000s</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Photos By Area</a>
+            <div class="dropdown-menu disabled" aria-labelledby="dropdown02">
+              <a class="dropdown-item disabled" href="">A Wing</a>
+              <a class="dropdown-item disabled" href="">B Wing</a>
+              <a class="dropdown-item disabled" href="">C Wing</a>
+              <a class="dropdown-item disabled" href="">D Wing</a>
+              <a class="dropdown-item disabled" href="">E Wing</a>
+              <a class="dropdown-item disabled" href="">Off Campus</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Supporters</a>
+          </li>
+        </ul>
       </div>
     </nav>
 
@@ -34,14 +67,14 @@
         <div class="col-lg">
           <div class="card-group">
             <div class="card">
-              <img class="card-img-top" src="images/" alt="YEAR Original">
+              <img class="card-img-top" src="images/1970_1_original.jpg" alt="1970 Original">
               <div class="card-body">
-                <h5 class="card-title">YEAR</h5>
+                <h5 class="card-title">1970</h5>
                 <p class="card-text">AREA</p>
               </div>
             </div>
             <div class="card">
-              <img class="card-img-top" src="images/" alt="YEAR Recreation">
+              <img class="card-img-top" src="images/1970_1_recreation.jpg" alt="1970 Recreation">
               <div class="card-body">
                 <h5 class="card-title">2018</h5>
                 <p class="card-text">AREA</p>
@@ -51,6 +84,123 @@
         </div>
       </div>
     </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg">
+          <div class="card-group">
+            <div class="card">
+              <img class="card-img-top" src="images/1973_1_original.png" alt="1973 Original">
+              <div class="card-body">
+                <h5 class="card-title">1973</h5>
+                <p class="card-text">AREA</p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="images/1973_1_recreation.jpg" alt="1973 Recreation">
+              <div class="card-body">
+                <h5 class="card-title">2018</h5>
+                <p class="card-text">AREA</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg">
+          <div class="card-group">
+            <div class="card">
+              <img class="card-img-top" src="images/1974_1_original.png" alt="1974 Original">
+              <div class="card-body">
+                <h5 class="card-title">1974</h5>
+                <p class="card-text">AREA</p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="images/1974_1_recreation.jpg" alt="1974 Recreation">
+              <div class="card-body">
+                <h5 class="card-title">2018</h5>
+                <p class="card-text">AREA</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg">
+          <div class="card-group">
+            <div class="card">
+              <img class="card-img-top" src="images/1975_1_original.png" alt="1975 Original">
+              <div class="card-body">
+                <h5 class="card-title">1975</h5>
+                <p class="card-text">AREA</p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="images/1975_1_recreation.jpg" alt="1975 Recreation">
+              <div class="card-body">
+                <h5 class="card-title">2018</h5>
+                <p class="card-text">AREA</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg">
+          <div class="card-group">
+            <div class="card">
+              <img class="card-img-top" src="images/1978_1_original.png" alt="1978 Original">
+              <div class="card-body">
+                <h5 class="card-title">1978</h5>
+                <p class="card-text">AREA</p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="images/1978_1_recreation.jpg" alt="1978 Recreation">
+              <div class="card-body">
+                <h5 class="card-title">2018</h5>
+                <p class="card-text">AREA</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg">
+          <div class="card-group">
+            <div class="card">
+              <img class="card-img-top" src="images/1979_1_original.jpg" alt="1979 Original">
+              <div class="card-body">
+                <h5 class="card-title">1979</h5>
+                <p class="card-text">AREA</p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="images/1979_1_recreation.jpg" alt="1979 Recreation">
+              <div class="card-body">
+                <h5 class="card-title">2018</h5>
+                <p class="card-text">AREA</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
 
     <div style="margin-top: 50px"></div>
     
