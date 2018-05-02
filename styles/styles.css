@@ -1,14 +1,102 @@
 @import "bootstrap.min.css";
-
+/*@import "fontawesome-all.css";*/
 body {
-  margin: 0px;
-  background-color: #D0F0C0;
+	margin: 0px;
+	background-color: #D0F0C0;
+	overflow-x: hidden;
+	padding-top: 55px;
 }
 
 h1 {
   color: #0B6623;
 }
+	
+a {
+	color: #eee;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #cccccc;
+}
 
 .container {
-  margin-top: 50px;
+  margin-top: 30px;
 }
+
+.dropdown-item {
+	color: green;
+}
+
+.w-sidebar {
+	width: 200px;
+	max-width: 200px;
+}
+
+.row.collapse {
+	margin-left: -200px;
+	left: 0;
+	/*transition: margin-left .15s linear;*/
+}
+
+.row.collapse.show {
+	margin-left: 0 !important;
+}
+
+.row.collapsing {
+	margin-left: -200px;
+	left: -0.05%;
+	/*transition: all .15s linear;*/
+}
+
+.row.collapse,
+.row.collapsing {
+	margin-left: 0 !important;
+	left: 0 !important;
+	overflow: visible;
+}
+
+.row > .sidebar.collapse {
+	display: flex !important;
+	margin-left: -100% !important;
+	transition: all .3s linear;
+	position: fixed;
+	z-index: 1050;
+	max-width: 0;
+	min-width: 0;
+	flex-basis: auto;
+}
+
+.row > .sidebar.collapse.show {
+	margin-left: 0 !important;
+	width: 100%;
+	max-width: 100%;
+	min-width: initial;
+}
+
+.row > .sidebar.collapsing {
+	display: flex !important;
+	margin-left: -10% !important;
+	transition: all .3s linear !important;
+	position: fixed;
+	z-index: 1050;
+	min-width: initial;
+}
+
+#top-bar {
+	font-size: 1.2em;
+}
+
+/* Mobile Phones */
+@media (max-width:768px) {
+	#top-bar {
+		height: 10%;
+		font-size: 2.5em;
+	}
+	
+	body {
+		height: 100vh;
+		overflow-x: hidden;
+		padding-top: 12%;
+	}
+} 
