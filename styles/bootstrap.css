@@ -4602,7 +4602,7 @@ tbody.collapse.show {
   margin-bottom: 15px;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) { /* THIS AFFECTS CARD GROUP AT MOBILE SIZE */
   .card-group {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;

@@ -1,4 +1,4 @@
-@import "bootstrap.min.css";
+@import "bootstrap.css";
 /*@import "fontawesome-all.css";*/
 body {
 	margin: 0px;
@@ -30,7 +30,6 @@ a:hover {
 
 .w-sidebar {
 	width: 200px;
-	max-width: 200px;
 }
 
 .row.collapse {
@@ -89,14 +88,19 @@ a:hover {
 
 /* Mobile Phones */
 @media (max-width:768px) {
-	#top-bar {
-		height: 10%;
-		font-size: 2.5em;
-	}
-	
 	body {
 		height: 100vh;
 		overflow-x: hidden;
 		padding-top: 12%;
+	}
+	
+	.w-sidebar {
+		width: 40%;
+		font-size: 1.4em;
+	}
+	
+	#top-bar {
+		height: 10%;
+		font-size: 2em;
 	}
 } 
