@@ -91,16 +91,13 @@ a:hover {
 	body {
 		height: 100vh;
 		overflow-x: hidden;
-		padding-top: 12%;
 	}
 	
 	.w-sidebar {
-		width: 40%;
-		font-size: 1.4em;
+		font-size: 1em;
 	}
 	
 	#top-bar {
-		height: 10%;
-		font-size: 2em;
+		font-size: 1em;
 	}
 } 
