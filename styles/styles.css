@@ -2,13 +2,13 @@
 /*@import "fontawesome-all.css";*/
 body {
 	margin: 0px;
-	background-color: #D0F0C0;
+	background-color: #58BC82;
 	overflow-x: hidden;
 	padding-top: 55px;
 }
 
 h1 {
-  color: #0B6623;
+  color: #222;
 }
 	
 a {
@@ -25,7 +25,7 @@ a:hover {
 }
 
 .dropdown-item {
-	color: green;
+	color: white;
 }
 
 .w-sidebar {
@@ -99,5 +99,17 @@ a:hover {
 	
 	#top-bar {
 		font-size: 1em;
+	}
+	
+	.card-body h5 {
+		float: left;
+	}
+	
+	.card-body p {
+		text-align: right;
+	}
+	
+	.card-group .card {
+		margin: 0;
 	}
 } 
